@@ -50,3 +50,20 @@ nav a:hover {
     opacity: 1;
   }
 }
+
+#home {
+  width: 100vw;
+  height: 100vh;
+}
+#about {
+  width: 100vw;
+  height: 100vh;
+}
+#blog {
+  width: 100vw;
+  height: 100vh;
+}
+#project {
+  width: 100vw;
+  height: 100vh;
+}

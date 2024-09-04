@@ -1,38 +1,52 @@
-.App {
+/* অ্যাক্টিভ লিঙ্কের স্টাইল */
+nav ul li a.active {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+/* Navigation Styles */
+nav {
+  background-color: #93B9D1;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* This ensures the li elements are inline */
+  justify-content: center; /* Centers the navigation items */
+}
+
+nav li {
+  
+}
+
+nav a {
+  display: block;
+  color: #000000;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav a:hover {
+  background-color: #A7C8DF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* Animation Example - You can apply this to any element you want */
+.animated-element {
+  animation: fadeIn 0.5s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
   }
 }

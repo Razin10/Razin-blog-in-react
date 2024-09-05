@@ -6,7 +6,6 @@ function Section() {
     <div>
       <section id="home" className="text-center text-light"> 
       <div className="full-screen">
-       <img src="https://www.pexels.com/photo/retratos-de-um-comissario-de-bordo-27635097/">
        <p>Istiyaq khan Razin</p>
        </div>
        <div className="articles">

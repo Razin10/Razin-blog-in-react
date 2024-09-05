@@ -1,49 +1,48 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { useState } from 'react';
+
+function Navbar() {
+  const [activeLink, setActiveLink] = useState('home');
+
+  const handleLinkClick = (linkId) => {
+    setActiveLink(linkId);
+  };
+
+  return (
+    <nav>
+      <ul>
+        <li>
+          <a
+            href="#home"
+            onClick={() => handleLinkClick('home')}
+            className={activeLink === 'home' ? 'active' : ''}
+          >
+            home
+          </a>
+        </li>
+        {/* অন্যান্য লিঙ্কগুলিও একইভাবে তৈরি করুন */}
+      </ul>
+    </nav>
+  );
+}
+
+function Section({ id, children }) {
+  return (
+    <section id={id} style={{ display: activeLink === id ? 'block' : 'none' }}>
+      {children}
+    </section>
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <div className="headingME">
-        <h1 className="heading"><span>RAZIN</span> blog's</h1>
-      </div>
-      <nav>
-        <ul>
-          <li>
-            <a href="#home">
-              home
-            </a>
-          </li>
-          <li>
-            <a href="#about">
-              about
-            </a>
-          </li>
-          <li>
-            <a href="#project">
-              project
-            </a>
-          </li>
-          <li>
-            <a href="#blog">
-              blog
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <section id="home">
-        hi
-      </section>
-      <section id="about">
-        i
-      </section>
-      <section id="blog">
-        am
-      </section>
-      <section id="project">
-        razin
-      </section>
+    <div>
+      <Navbar />
+      <Section id="home">hi</Section>
+      <Section id="about">i</Section>
+      <Section id="blog">am</Section>
+      <Section id="project">razin</Section>
     </div>
   );
 }

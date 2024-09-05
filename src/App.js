@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import Navber from './components/Navber';
 import Section from './components/Section';
-import BlogPosts from './components/BlogPosts';
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
       </div>
     <Navber />
     <Section />
-    <BlogPosts />
+    
       </div>
     </div>
   );

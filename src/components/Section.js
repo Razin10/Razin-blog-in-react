@@ -12,7 +12,7 @@ function Section() {
        <div className="articles">
            <article className="article">
                <h2>HI I AM RAZIN</h2>
-               <p>HI,my name is <strong>Istiyaq khan Razin</strong>.I came from Bangladesh.l live in Sylhet,Bangladesh.I am 15 years old.I’m a student at 8.My favorite subject is Math.My hobbies are surfing  internet.I would like to be a engineer.</p>
+               <p>HI,my name is <strong>Istiyaq khan Razin </strong>.I came from Bangladesh.l live in Sylhet,Bangladesh.I am 15 years old.I’m a student at 8.My favorite subject is Math.My hobbies are surfing  internet.I would like to be a engineer. </p>
            </article>
        </div>
     </section>

@@ -1,0 +1,50 @@
+.full-screen {
+  position: relative;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #13151d;
+  justify-content: center;
+  
+ /* আপনার কালার প্যালেট থেকে একটি রঙ */
+}
+
+.image {
+  max-width: 50%; /* ছবির সর্বোচ্চ আকার */
+  height: auto;
+  display: block;
+  padding-top: 20px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  
+}
+
+.full-screen p {
+   text-align: center;
+   font-family: 'CAT Hohenzollern', sans-serif;
+   color: whitesmoke;
+}
+.articles{
+    padding-top: 10px;
+}
+.articles .article {
+    width: 90%;
+    background-color: #1a1c27;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding: 10px;
+    border: wheat 1.5px solid;
+    border-radius: 18px;
+    box-shadow: 3px 3px 10px #27272a;
+    color: whitesmoke;
+}
+.articles .article h2 {
+    font-family: 'CAT Hohenzollern', sans-serif;
+    font-weight: 200;
+}
+.articles .article p {
+         
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/cat-hohenzollern');
+nav ul li a.active {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+/* Navigation Styles */
+nav {
+  background-color: #93B9D1;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* This ensures the li elements are inline */
+  justify-content: center; /* Centers the navigation items */
+}
+
+nav li {
+  
+}
+
+nav a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav a:hover {
+  background-color: #A7C8DF;
+}
+
+
+/* Animation Example - You can apply this to any element you want */
+.animated-element {
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

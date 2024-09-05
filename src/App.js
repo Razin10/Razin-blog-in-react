@@ -6,7 +6,7 @@ function App() {
     <div className="App">
     <div className="bg-dark bg-gradient">
       <div className="headingME">
-        <h1 className="heading"><span>RAZIN</span> blog's</h1>
+        <h1 className="heading text-center"><span>RAZIN</span> blog's</h1>
       </div>
       </div>
     </div>

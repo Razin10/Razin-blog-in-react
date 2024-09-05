@@ -1,69 +1,42 @@
-/* অ্যাক্টিভ লিঙ্কের স্টাইল */
-nav ul li a.active {
-  background-color: #f2f2f2;
-  font-weight: bold;
-}
-/* Navigation Styles */
-nav {
-  background-color: #93B9D1;
-  overflow: hidden;
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/cat-hohenzollern');
+.headingME {
+  	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	z-index: 4;
+	transition: all 300ms ease-in-out;
+	background-color: #13151d;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex; /* This ensures the li elements are inline */
-  justify-content: center; /* Centers the navigation items */
+.scroll-down {
+	.headingME {
+		transform: translate3d(0, -100%, 0);
+	}
 }
 
-nav li {
-  
+.scroll-up {
+	.headingME {
+		filter: drop-shadow(0 -10px 20px rgb(170, 170, 170));
+	}
 }
 
-nav a {
-  display: block;
-  color: #000000;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: "Baskervville SC", serif;
+.menu-is-open {
+	overflow: hidden;
+
+	.headingME {
+		filter: none;
+	}
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    font-family: "Baskervville SC", serif;
   font-weight: 400;
   font-style: normal;
-}
-
-nav a:hover {
-  background-color: #A7C8DF;
-}
-
-
-/* Animation Example - You can apply this to any element you want */
-.animated-element {
-  animation: fadeIn 0.5s;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
   }
-  to {
-    opacity: 1;
-  }
-}
-
-#home {
-  width: 100vw;
-  height: 100vh;
-}
-#about {
-  width: 100vw;
-  height: 100vh;
-}
-#blog {
-  width: 100vw;
-  height: 100vh;
-}
-#project {
-  width: 100vw;
-  height: 100vh;
-}

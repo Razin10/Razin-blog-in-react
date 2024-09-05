@@ -1,11 +1,13 @@
 import React from 'react';
 import './section.css';
+import myImage from './img/portfolio.png';
 
 function Section() {
   return (
     <div>
       <section id="home" className="text-center text-light"> 
       <div className="full-screen">
+    <img src={myImage} alt="My Image" className="image"/>
        <p>Istiyaq khan Razin</p>
        </div>
        <div className="articles">

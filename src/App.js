@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import Navber from './components/Navber';
 import Section from './components/Section';
-import SearchableVideoList from './components/SearchableVideoList';
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
       </div>
     <Navber />
     <Section />
-    <SearchableVideoList />
     
       </div>
     </div>

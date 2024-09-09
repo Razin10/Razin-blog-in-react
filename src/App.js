@@ -6,8 +6,8 @@ import Section from './components/Section';
 function App() {
   return (
     <div className="App">
-    <div class="animation">
-        <div class="sadiv"></div>
+    <div className="animation">
+        <div className="sadiv"></div>
        <h1>السلام عليكم</h1>
        <h2>আসসালামু আলাইকুম</h2>
     </div>

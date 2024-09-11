@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './TaskTracker.css';
 
 function TaskTracker() {
   const [tasks, setTasks] = useState([]);

@@ -60,7 +60,7 @@ function TaskTracker() {
       <button onClick={handleAddTask}>Add</button>
       <ul>
         {tasks.map((task) => (
-          <li
+          <li className="lie"
             key={task.id}
             style={{
               textDecoration: task.completed ? 'line-through' : 'none',

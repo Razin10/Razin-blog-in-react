@@ -3,6 +3,7 @@ import './App.css';
 import Navber from './components/Navber';
 import Section from './components/Section';
 import TaskTracker from './components/TaskTracker';
+import Blog from './components/Blog';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Navber />
     <Section />
     <TaskTracker />
+    <Blog />
     
       </div>
     </div>

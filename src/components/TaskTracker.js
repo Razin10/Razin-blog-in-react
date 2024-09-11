@@ -48,6 +48,7 @@ function TaskTracker() {
   };
 
   return (
+    <>
     <div className="container">
       <h1 className="badge bg-primary">Task Tracker</h1>
       <input
@@ -77,6 +78,7 @@ function TaskTracker() {
         ))}
       </ul>
     </div>
+</>
   );
 }
 

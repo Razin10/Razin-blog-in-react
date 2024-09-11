@@ -49,7 +49,7 @@ function TaskTracker() {
 
   return (
     <div>
-      <h1>Task Tracker</h1>
+      <h1 className="badge bg-primary">Task Tracker</h1>
       <input
         type="text"
         placeholder="Add a new task"

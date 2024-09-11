@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Blog.css'
 
 function Blog() {
   const [searchTerm, setSearchTerm] = useState('');

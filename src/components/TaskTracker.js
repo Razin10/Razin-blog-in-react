@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './TaskTracker.css';
+import './Task.css';
 
 function TaskTracker() {
   const [tasks, setTasks] = useState([]);
@@ -48,7 +48,7 @@ function TaskTracker() {
   };
 
   return (
-    <div>
+    <div className="container">
       <h1 className="badge bg-primary">Task Tracker</h1>
       <input
         type="text"

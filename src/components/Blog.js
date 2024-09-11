@@ -4,9 +4,9 @@ function Blog() {
   const [searchTerm, setSearchTerm] = useState('');
 
   const cards = [
-    { id: 1, title: 'কার্ড ১', description: 'এটি প্রথম কার্ড।' },
-    { id: 2, title: 'কার্ড ২', description: 'এটি দ্বিতীয় কার্ড।' },
-    { id: 3, title: 'কার্ড ৩', description: 'এটি তৃতীয় কার্ড।' },
+    { id: 1, title: 'Razin', description: 'এটি প্রথম কার্ড।' },
+    { id: 2, title: 'Rahid', description: 'এটি দ্বিতীয় কার্ড।' },
+    { id: 3, title: 'juned', description: 'এটি তৃতীয় কার্ড।' },
   ];
 
   const handleSearch = (event) => {
